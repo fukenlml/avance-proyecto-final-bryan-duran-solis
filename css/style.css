@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.colorNav {
+    color: white;
+}
+
+.posicionSlider {
+    margin-top: 100px;
+}
+
+.posicionTexto {
+    position: relative;
+    top: 150px;
+    left: 200px;
+    
+}
+
+.tituloIndex {
+    background-color: rgb(255, 209, 24);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+
+.navbar-nav :hover {
+    background-color: rgb(255, 209, 24);
+    color: white;
+    transform: scale(1.1);
+}
+
+.posicionFooterContacto{
+    position: relative;
+    top: 220px;
+}
+
+
+.posicionFooterIndex{
+    position: relative;
+    top: 550px;
+}
+
+.footerIconos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    bottom: 18px;
+    font-size: 1.4rem;
+
+}
+
+.footerIconos :hover {
+    transform: scale(1.4);
+    color: rgb(255, 50, 50);
+}
+
+.logoFooter {
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
+.logoFooter :hover {
+    transform: scale(1.5);
+}
+
+.letraColor {
+    color: rgb(255, 209, 24);
+}
+
+
+
+/* Servicios */
+
+/* QUIENES-SOMOS */
+.textoQs {
+    width: 70vh;
+    position: relative;
+    left: 600px;
+}
+
+.tituloQs {
+    background-color: rgb(255, 209, 24);
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+/* PORTFOLIO */
+.portfolioScale :hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px;
+}
+
+
+/* CONTACTO */
+.mainBg{
+    background: url(/img/fondo-contacto.jpg) no-repeat center center fixed;
+    background-size: cover;
+   
+}
+.formStyle {
+    width: 400px;
+    background-color: #ced4da;
+    padding: 30px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 6px 10px 30px;
+}
+
+.cajas {
+    width: 100%;
+    background-color: white;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.formBoton {
+    width: 100%;
+    background-color: #43ff6f;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formText {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.formBoton:hover {
+    transform: scale(1.1);
+    background-color: #30b04e;
+
+}
+
+
+
+.tituloForm {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ced4da;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 7px 20px #000;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+
+
+
+/* MEDIAQUERIES */
+@media (max-width: 768px){
+   /* Quienes Somos */
+    .textoQs{
+        left: 100px;
+    }
+    /*  */
+
+}
+@media (max-width: 576px){
+    /* index  */
+    .posicionTexto{
+        left: 0px;
+        top: 100px;
+        right: 100px;
+    }
+    .posicionFooterIndex{
+        top: 200px;
+    }
+    /* Quienes Somos */
+    .textoQs{
+        left: 0px;
+        width:100%;
+    }
+    .posicionFooterContacto{
+        top: 80px;
+    }
+}
+
+@media (max-width: 375px){
+    .formStyle{
+        width: 300px;
+    }
+    .tituloForm{
+        width: 250px;
+    }
+}
+
